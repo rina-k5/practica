@@ -1,0 +1,15 @@
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\bin\Debug\TestMail.exe.config
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\bin\Debug\TestMail.exe
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\bin\Debug\TestMail.pdb
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\TestMail.csproj.AssemblyReference.cache
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\MainWindow.g.cs
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\App.g.cs
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\TestMail_MarkupCompile.cache
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\TestMail_MarkupCompile.lref
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\MainWindow.baml
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\TestMail.g.resources
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\TestMail.Properties.Resources.resources
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\TestMail.csproj.GenerateResource.cache
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\TestMail.csproj.CoreCompileInputs.cache
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\TestMail.exe
+C:\Users\korsh\OneDrive\Рабочий стол\TestMail-master\TestMail\obj\Debug\TestMail.pdb

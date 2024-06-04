@@ -1,0 +1,33 @@
+﻿<Window x:Class="TestMail.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestMail"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="900" Background="Gray">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="160,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114"><Run Text="Почта отправителя"/><Run Language="ru-ru" Text=":"/></TextBlock>
+        <TextBox x:Name="tbEmailSender" HorizontalAlignment="Left" Margin="294,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
+        <TextBlock HorizontalAlignment="Left" Margin="160,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114"><Run Language="ru-ru" Text="Почта получателя:"/></TextBlock>
+        <TextBox x:Name="tbEmailRecipient" HorizontalAlignment="Left" Margin="294,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
+        <TextBlock HorizontalAlignment="Left" Margin="160,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Тема письма:"/></TextBlock>
+        <TextBox x:Name="tbSubjectLetter" HorizontalAlignment="Left" Margin="294,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398"/>
+        <TextBox x:Name="tbLetter" HorizontalAlignment="Left" Margin="294,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398" Height="169"/>
+        <Button x:Name="btnSend" Content="Отправить" HorizontalAlignment="Left" Margin="610,431,0,0" VerticalAlignment="Top" Width="82" Height="25" Background="Green" Click="btnSend_Click"/>
+        <ComboBox HorizontalAlignment="Left" Margin="515,77,0,0" VerticalAlignment="Top" Width="120"/>
+        <StackPanel Margin="0,0,774,0" Background="#333555">
+            <Image Height="100" Width="100"/>
+            <Button Content="&#xD;&#xA;организации" Height="63"/>
+            <Button Content="личные данных" Height="56"/>
+            <Button Content="о приложении" Height="53"/>
+        </StackPanel>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="714,77,0,109"/>
+        <Label Content="Шаблоны" HorizontalAlignment="Left" Margin="758,17,0,0" VerticalAlignment="Top" Height="55" Width="98" FontSize="19"/>
+        <Button x:Name="btnDelite" Content="Очистить сообщение" HorizontalAlignment="Left" Margin="294,431,0,0" VerticalAlignment="Top" Width="131" Height="25" Background="Green" Click="btnSend_Click"/>
+        <Button x:Name="btnCreateSample" Content="Добавить шаблон" HorizontalAlignment="Left" Margin="742,380,0,0" VerticalAlignment="Top" Width="130" Height="25" Background="Green" Click="btnSend_Click"/>
+        <Label Content="Добавить файл:" HorizontalAlignment="Left" Margin="160,372,0,0" VerticalAlignment="Top" Height="33" Width="153" FontSize="19"/>
+        <Button x:Name="btn" Content="Добавить почту" HorizontalAlignment="Left" Margin="515,120,0,0" VerticalAlignment="Top" Width="136" Height="25" Background="Green" Click="btnSend_Click"/>
+
+    </Grid>
+</Window>
